@@ -1,0 +1,70 @@
+Ninglin Li
+Grade for Final Project
+Grader: Maria Power
+
+*****REPLACE BELOW HERE WITH SPREADSHEET DATA
+Repository	Standard
+Language	
+	
+Problem 1:	
+Reqs Implemented (max 8)   8
+Tests (max 5)	5
+Coding (max 5)	4
+OOA Patterns (max 16)	16
+P1 Score (max 34)	33
+
+*******REPLACE ABOVE HERE
+
+Comments:
+You did not give me the amazonaws libraries so I cannot compile and run your code.  Your readme should really contain instructions on how to download and install the library and how to execute the program.
+
+Testing comments:  Although it is difficult to automate testing of a gui type application, a step by step test procedure would be a good way to test.
+
+Coding comments:
+Keeping each layer/pattern into different packages is a good practice to help navigate the code.
+
+Pattern comments:
+You did a nice job implementing your patterns. 
+
+
+
+--------------------------------
+Scoring criteria and breakdown (max points.)
+Reqs Implemented (max 8.)
+Tests (max 5.)
+Coding (max 5.)
+OOA Patterns (max 16.)
+Final Score (max 34.)
+
+1. Problem was broken into the following requirements ():
+1.01. Requirements must match proposal
+
+
+Coding Problem 1:
+1. Pattern(s) clearly understood and correctly implemented.
+2. Functionality placed in correct classes.
+
+------------------------------
+General Guidelines
+
+Tests
+1. Tests that run and compare results to known values that are obvious and verifiable.
+2. Try to avoid creating a user interface that runs the tests. This adds unnecessary effort and coding.
+3. Sometimes the grader will change (usually add) tests in the test code. You can see changes in the svn activity or the readme.
+4. Option: Show an incorrect implementation and how the test would fail (see Test Driven Development).
+5. Option: include in comments an attempt to call an inaccessible method. When uncommented, it should not compile. Use this only to prove a correct pattern implementation.
+6. Option: 100% code coverage achievement.  Might be impossible because error handling code might not get called.
+7. The console is somewhat of a UI. I would not put UI code (Console.Write...) in a non-UI class. Generally, in the homeworks, only the main test code should have UI code.  The test code can do all the UI you want. By doing this, you can improve unit testing, such as do automatic/built-in unit testing. By doing built-in checking, you don't rely on a person to correctly read and understand the console messages in order to determine if the testing succeeded. For example, you could compare a returned string or int with what you expect. Then, if it returns what you expect, you could increment a success counter, etc, and eventually report to the console that the test succeeded. If it did not match, you do something else, eventually reporting that the test failed.  Of course, this requires that you write good tests. Good testing is a crucial part of software development quality.
+Exceptions exist, of course. In the homeworks, it's still useful, for example, to show the contents of a Queue on the console.
+Also, using console messages for debugging is perfectly acceptable.
+
+
+Coding
+1. Should be simple, clear and lightly documented.
+2. I will try to comment on coding techniques and tactics.
+3. Sometimes I'll change source files, but usually just to add comments that I hope will improve your coding skills.
+4. Efficient use of memory.
+5. Option: Thread safe is good (definitely not necessary). But, you cannot do this unless you also include thread safe unit tests (i.e. create threads that cause concurrent access).
+6. Pattern(s) clearly understood and correctly implemented.
+7. Functionality placed in correct classes.
+
